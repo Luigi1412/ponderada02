@@ -1,0 +1,22 @@
+// definindo a nota dos alunos 
+var nota1 = 9
+var nota2 = 7
+var nota3 = 8
+
+// calculando a média dos alunos
+var media = (nota1 + nota2 + nota3)/3
+
+// verificando se a média é sulficiente para a aprovação
+if (media >= 7) { 
+    console.log('Muito bem, você foi aprovado com média' + media.toFixed(2) + '.')
+} else {
+   console.log ('Infelizmnte, você não foi aprovado. Sua média foi' + media.toFixed(2) + '.')
+}
+
+var notas = [1,2,3]
+var soma = 0;
+
+for (var i = 0; i < notas.length; i++) {
+    soma += notas[i]
+    console.log(notas)
+}
